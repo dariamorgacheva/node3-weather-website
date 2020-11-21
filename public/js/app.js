@@ -10,7 +10,6 @@ const messageTwo = document.querySelector('#message-1')
 
 
 weatherForm.addEventListener('submit', (e) => {
-  console.log('hicute!');
   e.preventDefault()
 
   const location = search.value
